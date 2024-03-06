@@ -2,8 +2,8 @@
     "locale": "es-MX",
     "strings": {
         "constants": {
-            "1_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor de Hielo|Flor de Fuego Chica|Flor Burbuja",
-            "2_power-ups": "Champiñón|Flor de Fuego|Superhoja|Flor de Hielo|Flor Burbuja",
+            "1_power-ups": "Champiñón|Flor de fuego|Superhoja|Flor de hielo|Flor de fuego pequeña|Flor burbuja",
+            "2_power-ups": "Champiñón|Flor de fuego|Superhoja|Flor de hielo|Flor burbuja",
             "1_map-palettes": "Estándar/Al Aire Libre|Subterraneo (azul oscuro)|Castillo (gris)|Bajo el Agua (verde oscuro)|Cielo (verde claro)|Hielo (azul claro)|Volcan (rojo)|Casa Encantada (morado)|Bonus (amarillo)",
             "2_map-palettes": "Estándar"
         },
@@ -22,42 +22,42 @@
                 "delete": "Eliminar",
                 "rename": "Renombrar",
                 "lock": "Bloquear",
-                "unlock": "Desbloquar",
+                "unlock": "Desbloquear",
                 "hide": "Ocultar",
                 "view": "Mostrar",
                 "create": "Crear",
                 "edit": "Editar",
                 "exit": "Salir",
                 "editor": "Editor",
-                "confirm-click": "[!]Click again to confirm",
-                "proceed": "[!]Proceed",
-                "click-configure": "[!]Click to configure",
-                "remove": "[!]Remove"
+                "confirm-click": "Click para confirmar",
+                "proceed": "Continuar",
+                "click-configure": "Click para configurar",
+                "remove": "Remover"
             },
             "time": {
                 "days": {
-                    "many": "[!]days",
+                    "many": "días",
                     "one": "día",
                     "other": "días"
                 },
                 "hours": {
-                    "many": "[!]hours",
+                    "many": "horas",
                     "one": "hora",
                     "other": "horas"
                 },
                 "minutes": {
-                    "many": "[!]minutes",
+                    "many": "minutos",
                     "one": "minuto",
                     "other": "minutos"
                 },
                 "ago": "hace",
                 "notation": "{1} {0}",
                 "seconds": {
-                    "many": "[!]seconds",
+                    "many": "segundo",
                     "one": "segundo",
                     "other": "segundos"
                 },
-                "just-now": "[!]Just now"
+                "just-now": "Ahora"
             },
             "words": {
                 "keyboard": "teclado",
@@ -68,45 +68,45 @@
                 "volume": "volumen",
                 "name": "nombre",
                 "custom": "personalizado",
-                "width": "anchura",
-                "height": "altura",
+                "width": "ancho",
+                "height": "alto",
                 "layers": {
-                    "many": "[!]layers",
+                    "many": "capas",
                     "one": "capa",
                     "other": "capas"
                 },
                 "effects": {
-                    "many": "[!]effects",
+                    "many": "efectos",
                     "one": "efecto",
                     "others": "efectos"
                 },
                 "objects": {
-                    "many": "[!]objects",
+                    "many": "objetos",
                     "one": "objeto",
                     "other": "objetos"
                 },
                 "tiles": {
-                    "many": "[!]tiles",
+                    "many": "bloques",
                     "one": "bloque",
                     "other": "bloques"
                 },
                 "destination": {
-                    "many": "[!]destination",
+                    "many": "destinos",
                     "one": "destino",
                     "other": "destinos"
                 },
                 "entryway": {
-                    "many": "[!]entryway",
+                    "many": "entradas",
                     "one": "entrada",
                     "other": "entradas"
                 },
                 "maps": {
-                    "many": "[!]maps",
+                    "many": "mapas",
                     "one": "mapa",
                     "other": "mapas"
                 },
                 "themes": {
-                    "many": "[!]themes",
+                    "many": "temas",
                     "one": "tema",
                     "other": "temas"
                 },
@@ -121,19 +121,19 @@
                 "up": "arriba",
                 "down": "abajo",
                 "tags": {
-                    "many": "[!]tags",
+                    "many": "etiquetas",
                     "one": "etiqueta",
                     "other": "etiquetas"
                 },
                 "degrees": {
-                    "many": "[!]degrees",
+                    "many": "grados",
                     "one": "grado",
                     "other": "grados"
                 },
-                "active": "[!]active",
-                "inactive": "[!]inactive",
-                "paused": "[!]paused",
-                "unavailable": "[!]unavailable"
+                "active": "activo",
+                "inactive": "inactivo",
+                "paused": "pausado",
+                "unavailable": "no disponible"
             },
             "labels": {
                 "press-again-to-confirm": "Pulsa de nuevo para confirmar",
@@ -161,7 +161,7 @@
                 "tagging": "Etiquetado",
                 "behavior": "Comportamiento",
                 "other": "Otro",
-                "how-it-works": "[!]How it works"
+                "how-it-works": "Como funciona"
             },
             "menu-options": {
                 "default": "Por defecto",
@@ -207,7 +207,7 @@
                 "compact": "Compacto",
                 "production": "Para producción",
                 "create-level": "Create level!",
-                "create-lss-entry": "[!]Also create a private LSS-entry"
+                "create-lss-entry": "Tambien crea un entrada de LSS privada"
             },
             "tooltips": {
                 "play": "Jugar",
@@ -229,9 +229,9 @@
                 "compact-notice": "Los códigos compactos unicamente contienen los datos para construir tu nivel, eliminando los datos almacenados exclusivamente para los diseñadores del nivel.",
                 "production-notice": "El código para producción guarda datos adicionales que son útiles durante el diseño de los niveles, como los elementos de la barra de favoritos.",
                 "import-code-notice": "Pega un código de nivel aquí, y el nivel se guardará dentro del juego. Aún así se recomienda que hagas copias de seguridad regulares de tu nivel guardando el código en tu dispositivo y/o en Level Share Square.",
-                "first-paste-code": "[!]You first have to paste in your level code.",
-                "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
-                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct."
+                "first-paste-code": "Primero debes pegar el codigo de tu nivel.",
+                "unrecognized-code": "Vaya, este codigo de nivel no fue reconocido.",
+                "outdated-version": "Este codigo de nivel es para una version nueva de Super Mario Construct."
             }
         },
         "regular-play": {
@@ -353,10 +353,10 @@
                 "restore-point-header": "Opciones de punto de restauración",
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Los puntos de restauración son copias de seguridad de tu nivel, realizados automáticamente al guardarlo despiés de un tiempo determinado.\nPuedes volver a una versión anterior de tu nivel desde un punto de restauración aquí.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Intervalo de creación de puntos de restauración[/scale]",
-                "lss-level-sync": "[!]LSS cloud synchronization",
-                "sync-on-exit": "[!]Synchronizes on exit",
-                "currently-offline": "[!]Currently offline",
-                "not-logged-in": "[!]Not logged in"
+                "lss-level-sync": "Sincronizacion en la nube de LSS",
+                "sync-on-exit": "Sincroniza al salir",
+                "currently-offline": "Estas sin conexion",
+                "not-logged-in": "No estas con tu sesión iniciada"
             },
             "buttons": {
                 "new-destination": "Haz clic para añadir un nuevo destino",
@@ -393,7 +393,7 @@
                 "create-restore-point": "[scale=0.75]Crear manualmente\npunto de restauración[/scale]",
                 "view-restore-points": "[scale=0.75]Mostrar/Usar\npuntos de restauración[/scale]",
                 "download-level": "[scale=0.75]Descargar nivel actual[/scale]",
-                "edit-sync-settings": "[!]Edit synchronization settings"
+                "edit-sync-settings": "Editar configuracion de sincronizacion."
             },
             "tooltips": {
                 "add-entryway": "Agregar entrada",
@@ -418,7 +418,7 @@
                 "inactive-layer-opacity": "Al editar una capa de bloques, otras capas se volverán translúcidas. Si introduces 100 las capas serán completamente visibles, y si introduces 0 las capas serán totalmente invisibles.",
                 "trail-tool-frame-count": "Al probar el nivel, Mario dejará un rastro visible en el editor. Este es el número de fotogramas que dejará Mario.\nLa función de rastro se encuentra en la caja de herramientas de la parte inferior izquierda (durante la prueba de nivel).",
                 "backup-interval-notice": "Nota: esta cantidad no muestra los minutos en tiempo real, sino el tiempo en el editor",
-                "last-sync": "[!]Last synchronization"
+                "last-sync": "Ultima sincronizacion"
             },
             "html": {
                 "destination-name-example": "Ejemplo 'salida de la cueva'",
@@ -1074,16 +1074,17 @@
                     "attack-frequency-info": "¡Es posible que un ataque ocurra más a menudo! Mírame:",
                     "spew-flame": "Arrojar Flamas",
                     "homing-dash": "Embestida",
-                    "magic-bottles": "[!]Magic Bottles",
-                    "pumpkins-and-pepper": "Arrojar Calabazas en Llamas y Pimientos",
+                    "magic-bottles": "Botellas magicas",
+                    "pumpkins-and-pepper": "Arrojar calabazas en llamas y pimientos",
                     "protective-flames": "Generar Flamas Protectoras",
                     "kb-attack-desc-flame": "Lanza una Llama Fantasma hacia el jugador",
-                    "kb-attack-desc-dash": "Mira y se dirige al jugador",
-                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
-                    "kb-attack-desc-pepper": "Escupe Calabazas en Llamas y un Pimiento. ¡Lanza el Pimiento a la boca del Rey Bú para que éste sea vulnerable a las calabazas!",
-                    "kb-attack-desc-ring": "Crea un anillo de Flamas alrededor del Rey Bú, que lo proteje de los proyectiles",
+                    "kb-attack-desc-dash": "Persigue y asecha al jugador",
+                    "kb-attack-desc-bottle": "Lanza multiples botellas magicas. ¡Algunas estallaran en llamas, una tendra una hada con la que puedes aturdir al Rey Bú!",
+                    "kb-attack-desc-pepper": "Escupe calabazas en llamas y un pimiento. ¡Lanza el pimiento a la boca del Rey Bú para que éste sea vulnerable a las calabazas!",
+                    "kb-attack-desc-ring": "Crea un anillo de flamas alrededor del Rey Bú, que lo proteje de los proyectiles",
                     "ring-count": "Número de Llamas en el anillo",
-                    "kb-intro-anim-info": "¡El Rey Bú puede entrar con estilo! Elige una animación de introducción a tu gusto."
+                    "kb-intro-anim-info": "¡El Rey Bú puede entrar con estilo! Elige una animación de introducción a tu gusto.",
+                    "kb-attack-descriptions": "Escupe llamas fantasmales hacia el jugador | Persigue y asecha al jugador | Escupe calabazas en llamas y un pimiento. ¡Lanza el pimiento a la boca del Rey Bú para que éste sea vulnerable a las calabazas! | Crea un anillo de flamas alrededor del Rey Bú, que lo proteje de los proyectiles"
                 },
                 "separators": {
                     "chase-stats": "Estadísticas de persecución",
@@ -1133,9 +1134,9 @@
                 "embers": "Brasas",
                 "heat": "Ondas de calor",
                 "dark": "Oscuridad",
-                "echo": "Efecto de Eco",
+                "echo": "Efecto de eco",
                 "flash": "Destello",
-                "fog": "Niebla",
+                "fog": "Neblina",
                 "leaf": "Hojas",
                 "sil": "Silueta"
             },
@@ -1192,41 +1193,41 @@
             "restore-points": {
                 "code-size": "Tamaño del código",
                 "restore": "Restaurar",
-                "download": "Descargar código de\npunto de restauración",
+                "download": "Descargar código del\npunto de restauración",
                 "header": "En este menú, puedes restaurar o descargar una copia de seguridad de una versión previa de tu nivel.",
                 "none-found": "Aún no hay puntos de restauración para este nivel.\nCuando trabajes en tu nivel, los puntos de restauración se crearán automáticamente con el tiempo.",
                 "confirm-prompt": "¿Restaurar a partir de esta fecha?"
             },
             "startpoint-missing": {
-                "message-edit": "¡Espera - Este nivel aún no tiene punto de inicio! Esto posiblemente se deba a que el mapa que contienía el punto de inicio haya sido eliminado.\n\n¿Quieres establecer ahora un nuevo punto de inicio?",
-                "message-play": "¡Espera! - Este nivel no tiene un punto de inicio válido - Ve al editor, abre el menú de ajustes, y coloca uno desde allí.",
-                "open-editor": "Abre el editor"
+                "message-edit": "¡Espera! - ¡Este nivel aún no tiene punto de inicio! Esto posiblemente se deba a que el mapa que contienía el punto de inicio haya sido eliminado.\n\n¿Quieres establecer un nuevo punto de inicio?",
+                "message-play": "¡Espera! - Este nivel no tiene un punto de inicio válido - Ve al editor, abre el menú de ajustes y coloca uno desde allí.",
+                "open-editor": "Abrir el editor"
             },
             "level-sync-new": {
-                "enter-link": "[!]Enter the link to your level on Level Share Square that you want to synchronize the level code with.",
-                "info-label-1": "[!]With this feature enabled, when you save your level in-game, it will also be updated on the Level Share Square website automatically.",
-                "info-label-2": "[!]When opening up the editor, the game will also alert you if the level code on the site is newer, which is useful when editing on multiple devices.",
-                "sync-success": "[!]Your level is synchronized with its entry on Level Share Square! Hoozah!"
+                "enter-link": "Ingresa el link del nivel que quieras sincronizar su codigo de nivel en Level Share Square.",
+                "info-label-1": "Con esta funcion habilitada, cuando guardes tu nivel en el juego, tambien se actualizara en el sitio de Level Share Square automaticamente.",
+                "info-label-2": "Cuando se abra el editor, el juego tambien te alertara si el codigo del nivel en el sitio web es nuevo, esto es util si creas niveles en diferentes dispositivos.",
+                "sync-success": "Tu nivel esta sincronizado con su entrada en Level Share Square! Hoozah!"
             },
             "level-sync-edit": {
-                "sync-select": "[!]Select when you want to synchronize.",
-                "cooldown-notice": "[!]Note: synchronizations have a 20-second cooldown.",
-                "sync-options": "[!]Pause synchronization|Whenever the game saves|When I exit out of the editor",
-                "desync": "[!]Desynchronize",
-                "cancel-sync": "[!]Cancel synchronization",
-                "cancel-notice-1": "[!]When you cancel synchronization, the game will stop communication between Level Share Square for this specific level.",
-                "cancel-notice-2": "[!]De-synchronizing does not delete your level either in-game or on Level Share Square. You can always re-enable synchronization at a later date.",
-                "sync-cancelled": "[!]This level is no longer being synchronized with Level Share Square."
+                "sync-select": "Elije cuando quieras sincronizar.",
+                "cooldown-notice": "Toma en cuenta: la sincronizaciones tienen un tiempo de espera de 20 segundos.",
+                "sync-options": "Pausar sincornizacion|Cuando el juego guarde|Cuando salga del editor",
+                "desync": "Desincronizar",
+                "cancel-sync": "Cancelar sincornización",
+                "cancel-notice-1": "Cuando cancelas la sincronización, el juego dejara de comunicarse con Level Share Square para este nivel en especifico.",
+                "cancel-notice-2": "Desincronizar no borrara tu nivel en el juego ni en Level Share Square. Siempre puedes volver a activar la sincronizacion mas tarde.",
+                "sync-cancelled": "Este nivel ya no se sincronizara con Level Share Square."
             },
             "level-sync-compare": {
-                "new-ver-on-site": "[!]It looks like a newer version of this level is on Level Share Square. Would you like to synchronize?",
-                "restore-point-notice": "[!]A local restore point will be made in case you want to go back.",
-                "local-version": "[!]Local version",
-                "cloud-version": "[!]Cloud version",
-                "last-edited": "[!]Last edited",
-                "keep-local-version": "[!]Keep local version",
-                "use-cloud-version": "[!]Use cloud version",
-                "download-copy": "[!]Download a copy"
+                "new-ver-on-site": "Parece que hay una nueva version de este nivel en Level Share Square. ¿Te gustaria sincronizarlo?",
+                "restore-point-notice": "Un punto de restauracion local sera creado en caso de que quieras volver.",
+                "local-version": "Version local",
+                "cloud-version": "Version en la nube",
+                "last-edited": "Ultimo editado",
+                "keep-local-version": "Usar version local",
+                "use-cloud-version": "Usar version en la nube",
+                "download-copy": "Descargar una copia"
             }
         },
         "misc-labels": {
@@ -1277,13 +1278,13 @@
                 "log-out-confirmation": "¿Seguro/a que quieres cerrar sesión?",
                 "offline-notice": "Estás desconectado/a, por lo que las funciones de LSS no están disponibles en este momento.",
                 "accessibility": "accesibilidad",
-                "logout": "[!]Log out",
-                "in-game-username": "[!]In-game username"
+                "logout": "Cerrar sesión",
+                "in-game-username": "Nombre en juego"
             },
             "buttons": {
                 "restart": "Reiniciar",
                 "restart-c": "Reiniciar\n[scale=0.65](desde último puesto de control)[/scale]",
-                "extra-options-tools": "[!]Extra options & tools",
+                "extra-options-tools": "Configuracion extra y herramientas",
                 "main-menu": "Menú principal",
                 "frame-skip": "Salto de fotogramas",
                 "reduced-particles": "Reducción de artículas",
